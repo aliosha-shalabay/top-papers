@@ -1,0 +1,255 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.line{
+    border-bottom:3px solid #89bfe1 ;
+    width: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-header {
+    background:  url("../images/Vector_Smart_Object3.png") no-repeat left bottom, url("../images/9-layers.png") no-repeat center -7px / cover ;
+    padding-bottom: 30px;
+}
+
+.header-contact {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.breack {
+    color: white;
+    font-size: 20px;
+    margin: -4px 20px 0 20px;
+}
+
+.header-contact p i {
+    margin-right: 10px;
+}
+
+.logo {
+    padding: 21px 0;
+}
+
+.header-contact {
+    padding: 37px 0;
+}
+
+nav.header-nav ul li {
+    list-style: none;
+}
+
+nav.header-nav ul li a {
+    color: #ffffff;
+    font-family: "Catamaran";
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav.header-nav ul {
+    padding-left: 0;
+}
+
+.login-order-link p a, .login-order-link p a {
+    font-family: "Catamaran";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.login-order-link p a i {
+    margin-right: 10px;
+}
+
+.login-order-link p a:hover {
+    color: #f7da98;
+}
+
+.header-text h1 {
+    text-shadow: 3px 1px 1px rgba(4, 37, 63, 0.4);
+    color: #ffffff;
+    font-family: "Catamaran";
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 54px;
+    margin-top: 84px;
+}
+
+.header-text p {
+    opacity: 0.65;
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.calc {
+    padding: 53px 61px;
+    margin-top: 84px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px rgba(10, 34, 89, 0.15);
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.calc h3 {
+    color: #133087;
+    font-family: Catamaran;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.calc label {
+    color: #989b9e;
+    font-family: Catamaran;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.calc input {
+    box-shadow: 0 0 3px rgba(5, 14, 39, 0.3);
+    background-color: #fcfcfc;
+    border: none;
+    padding: 28px 0 28px 19px;
+}
+
+
+.radios-as-buttons {
+    display: flex;
+    justify-content: space-between
+}
+
+.radios-as-buttons input {
+    position: absolute;
+    left: -9999px;
+}
+
+.radios-as-buttons label {
+    display: block;
+    padding: 21px 26px 15px 26px;
+    box-shadow: 0 0 3px rgba(5, 14, 39, 0.3);
+    background-color: #fcfcfc;
+    cursor: pointer;
+}
+
+.radios-as-buttons input:checked + label {
+    background-color: #12328d;
+    color: white;
+    border: none;
+}
+
+.radios-as-buttons div:first-child label {
+    margin-left: 0;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.radios-as-buttons div:last-child label {
+    border-radius: 0 5px 5px 0;
+}
+
+button.btn-outline-secondary {
+    border: 1px solid rgba(100, 103, 110, 0.3);
+}
+
+button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
+    background-color: #12328d !important;
+}
+
+.btn-order-now {
+    background-color: #f7ab00;
+    color: #ffffff;
+    font-family: "Catamaran";
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 60px;
+    width: 100%;
+}
+
+.btn-order-now i {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.btn-order-now:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-price p:nth-child(1) {
+    color: #071233;
+    font-family: Catamaran;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.form-price p:nth-child(1) span:nth-child(1) {
+    color: #021452;
+    font-size: 27px;
+    letter-spacing: -0.54px;
+    font-weight: 600;
+}
+
+.form-price p:nth-child(1) span:nth-child(2) {
+    letter-spacing: -0.6px;
+    text-decoration: line-through;
+    color: #989b9e;
+}
+
+.form-price p:nth-child(2) {
+    opacity: 0.5;
+    color: #071233;
+    font-family: Catamaran;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.bg-form {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+.header-table tbody tr:nth-child(1) td:nth-child(1){
+    border-top: none;
+    border-right: 3px solid #54b3e3;
+}
+.header-table tbody tr:nth-child(1) td:nth-child(2){
+    border-top: none;
+}
+.header-table tbody tr:nth-child(2) td{
+    border-top: 3px solid #54b3e3;
+}
+.header-table tbody tr:nth-child(2) td:nth-child(1){
+    border-right: 3px solid #54b3e3;
+}
+
+.header-table tbody tr td span{
+    color: #f7da98;
+    font-family: "Catamaran - Extra Bold";
+    font-size: 25px;
+    font-weight: 700;
+}
+.header-table tbody tr td{
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 5px;
+}
