@@ -2,7 +2,8 @@
     padding-left: 0;
     padding-right: 0;
 }
-p{
+
+p {
     opacity: 0.65;
     color: #071233;
     font-family: Catamaran;
@@ -10,15 +11,18 @@ p{
     font-weight: 400;
     line-height: 26px;
 }
-.bg-blue{
-    background-color: #12328d!important;
+
+.bg-blue {
+    background-color: #12328d !important;
 }
+
 .line {
     border-bottom: 3px solid #89bfe1;
     width: 40px;
 }
-p-0{
-    padding: 0!important;
+
+p-0 {
+    padding: 0 !important;
 }
 
 a:hover {
@@ -311,13 +315,14 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
 }
 
 .bg-block-2 {
-    background: url("../images/6-layers.png") no-repeat  right -101px top;
+    background: url("../images/6-layers.png") no-repeat right -101px top;
     margin-top: -200px;
     padding-top: 400px;
     position: relative;
 }
-.bg-block-2-footer{
-    background: url("../images/7-layers.png") no-repeat  top center / 100%;
+
+.bg-block-2-footer {
+    background: url("../images/7-layers.png") no-repeat top center / 100%;
     padding: 130px 15px;
 }
 
@@ -373,9 +378,11 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     list-style: none;
 
 }
-.contact-window ul{
+
+.contact-window ul {
     padding-left: 16px;
 }
+
 .contact-window ul li::before {
     content: "\2022";
     color: #3cc9ff;
@@ -385,19 +392,22 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     margin-left: -1em;
 }
 
-.contact-window .line{
+.contact-window .line {
     width: 100%;
     border-bottom: 1px solid #e5e8e8;
     margin-bottom: 23px;
 }
-.contact-block-2 p{
+
+.contact-block-2 p {
     margin-bottom: 12px;
 }
-.contact-block-2 p i{
+
+.contact-block-2 p i {
     color: #12328d;
     margin-right: 10px;
 }
-.map-cord{
+
+.map-cord {
     width: 203px;
     height: 89px;
     box-shadow: 0 0 9px rgba(10, 34, 89, 0.15);
@@ -405,40 +415,46 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     background-color: #ffffff;
     padding: 19px 29px;
     position: absolute;
-    bottom:455px;
+    bottom: 455px;
     right: 50px;
 }
-.map-cord span{
+
+.map-cord span {
     font-size: 30px;
     color: rgba(10, 34, 89, 0.15);
 }
-.map-cord span i{
+
+.map-cord span i {
     font-size: 18px;
     color: #12328d;
 }
-.bg-block-2-footer p{
+
+.bg-block-2-footer p {
     color: #ffffff;
     font-family: "Catamaran";
     font-size: 30px;
     font-weight: 600;
     line-height: 43px;
 }
-.section-block-3{
+
+.section-block-3 {
     margin-top: 120px;
 }
-.section-block-3 h5{
+
+.section-block-3 h5, .section-block-5 h5 {
     color: #133087;
     font-family: Catamaran;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 52px;
     margin-bottom: 20px;
 }
-.section-block-3 h5 span{
+
+.section-block-3 h5 span, .section-block-5 h5 span {
     opacity: 0.5;
     color: #133087;
     font-family: Catamaran;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 52px;
     border-left: 3px solid #e7e7e7;
@@ -446,14 +462,17 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     margin-left: 15px;
     padding-bottom: 3px;
 }
-.section-block-3 article{
+
+.section-block-3 article {
     padding: 35px 30px;
     border: 1px solid #e7e7e7;
 }
-.section-block-3  article:hover{
+
+.section-block-3 article:hover {
     background-color: #f4fcff;
 }
-.section-block-3  article .block-3-title{
+
+.section-block-3 article .block-3-title {
     color: #071233;
     font-family: Catamaran;
     font-size: 19px;
@@ -461,7 +480,8 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     line-height: 27px;
     opacity: 0.65;
 }
-.section-block-3  article p{
+
+.section-block-3 article p {
     opacity: 0.5;
     color: #071233;
     font-family: Catamaran;
@@ -469,16 +489,101 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     font-weight: 400;
     line-height: 23px;
 }
-.more{
+
+.more {
     padding: 0 30px;
 }
-.more p a{
+
+.more p a {
     color: #133087;
     font-family: Catamaran;
     font-size: 15px;
     font-weight: 500;
     line-height: 80px;
 }
-.btn-block-3{
+
+.btn-block-3 {
     margin-top: 60px;
+}
+
+.bg-block-3 {
+    background: url("../images/15-layers.png") no-repeat right top;
+}
+
+.right-block-4 .btn-order-now {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.bg-block-4 {
+    background: url("../images/16-layers .png") no-repeat right top / 20%, url("../images/17-layers.png") no-repeat left bottom / 41%;
+}
+
+.left-block-4 i, .right-block-4 i {
+    background-color: #f7ab00;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.left-block-4 {
+    margin-top: 130px;
+}
+
+.right-block-4 {
+    margin-top: 35%;
+
+}
+
+.right-block-4 h5, .left-block-4 h5 {
+    color: #133087;
+    font-family: "Catamaran";
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 52px;
+    margin-top: 35px;
+}
+
+.section-block-5 {
+    padding-top: 170px;
+}
+
+.section-block-5 .btn-order-now {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.section-right-block-5 {
+    margin-top: 170px;
+}
+
+.section-right-block-5 div div {
+    box-shadow: 0 0 9px rgba(10, 34, 89, 0.1);
+    background-color: #f4fcff;
+    padding: 30px 30px 30px 30px;
+    margin: 0px 0px 30px 0;
+    height: 275px;
+}
+
+.panel p {
+    opacity: 0.5;
+    color: #071233;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.panel p:nth-child(2) {
+    opacity: 0.75;
+    color: #071233;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.panel img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
