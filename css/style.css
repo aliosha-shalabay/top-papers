@@ -582,8 +582,267 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     font-weight: 500;
     line-height: 22px;
 }
+
 .panel img {
     display: block;
     margin: 0 auto;
     margin-bottom: 15px;
+}
+
+.section-block-6 {
+    box-shadow: 0 0 9px rgba(10, 34, 89, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 30px 100px 0px 90px;
+}
+
+.section-block-6 article {
+    padding-bottom: 20px;
+    padding-top: 35px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.section-block-6 article h5 {
+    color: #133087;
+    font-family: Catamaran;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.section-block-6 article p a {
+    color: #133087 !important;
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.section-block-6 article p a i {
+    font-size: 11px;
+    color: #133087 !important;
+
+}
+
+.section-block-6 article:last-child {
+    border: none;
+}
+
+.bg-block-6 h3 {
+    color: #133087;
+    font-family: Catamaran;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 60px;
+    margin-bottom: 290px;
+}
+
+.bg-block-6 div div div > p {
+    color: #071233;
+    font-family: "Catamaran";
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 90px;
+    margin-top: 250px;
+}
+
+.section-block-6-2 {
+    background-color: #f4fcff;
+}
+
+.bg-block-6 {
+    background: url("../images/18-layers.png") no-repeat right top 190px;
+}
+
+.footer {
+    /*padding: 100px 0;*/
+    background-color: #021452;
+    margin-top: 100px;
+}
+
+.footer .link-logo .logo-text .main-logo-text span {
+    color: white;
+}
+
+.logo-payment, .payment {
+    padding: 38px 0;
+}
+
+.payment ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.payment ul li {
+    list-style: none;
+    margin-right: 11px;
+    margin-top: 32px;
+}
+
+.payment ul li a {
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+    /* Text style for "Prices" */
+    letter-spacing: 0.24px;
+}
+
+footer.footer h6 {
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer.footer ul.footer-nav {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 0;
+}
+
+.my-border {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer.footer ul.footer-nav li a {
+    color: #ffffff;
+}
+
+.center-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: white;
+
+}
+
+.contact div span {
+    float: left;
+    margin-right: 20px;
+
+}
+
+/*.contact div div p:nth-child(1) {*/
+/*    color: #a3a6a9;*/
+/*    font-family: "Open Sans";*/
+/*    font-size: 13px;*/
+/*    font-weight: 400;*/
+/*    line-height: 16px;*/
+/*    margin-bottom: 13px;*/
+/*}*/
+
+.contact div div p {
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.social div ul li {
+    list-style: none;
+}
+
+.social div ul li a:hover {
+    text-decoration: none;
+}
+
+.social div ul {
+    padding-left: 0;
+    padding-right: 100px;
+    width: 100%;
+}
+
+.articles p a {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.articles ul li {
+    list-style: none;
+    line-height: 17px;
+}
+
+.articles ul {
+    padding-left: 0;
+}
+
+.articles ul li a {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact div {
+    margin-top: 30px;
+}
+
+.social div ul li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #0b2f6c;
+    border-radius: 50%;
+    padding: 5px 9px;
+margin-left: 20px;
+}
+
+.social div ul li a i {
+    color: white !important;
+
+}
+
+.social div ul li a:hover {
+    background: #247cb5;
+}
+.footer-text-1 p{
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footer-text-2 p{
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.footer-text-3 p{
+    color: #ffffff;
+    font-family: Catamaran;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.m60{
+    margin-top: 60px;
 }
