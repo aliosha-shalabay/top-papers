@@ -811,7 +811,7 @@ footer.footer ul.footer-nav li a {
     background-color: #0b2f6c;
     border-radius: 50%;
     padding: 5px 9px;
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 .social div ul li a i {
@@ -822,27 +822,155 @@ margin-left: 20px;
 .social div ul li a:hover {
     background: #247cb5;
 }
-.footer-text-1 p{
+
+.footer-text-1 p {
     color: #ffffff;
     font-family: Catamaran;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
 }
-.footer-text-2 p{
+
+.footer-text-2 p {
     color: #ffffff;
     font-family: Catamaran;
     font-size: 15px;
     font-weight: 400;
     line-height: 21px;
 }
-.footer-text-3 p{
+
+.footer-text-3 p {
     color: #ffffff;
     font-family: Catamaran;
     font-size: 13px;
     font-weight: 400;
     line-height: 28px;
 }
-.m60{
+
+.m60 {
     margin-top: 60px;
 }
+
+.bg-header-2 .header-contact p, .bg-header-2 nav.header-nav ul li a, .bg-header-2 .login-order-link p a {
+    color: #3c3d3e;
+}
+
+.bg-header-2 nav.header-nav ul li a:hover {
+    color: #12328d !important;
+}
+
+.bg-header-2 .login-order-link p a:hover {
+    color: #c88500 !important;
+}
+
+.bg-header-2 header div.container {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.wrapper {
+    background: url("../images/bg-header-2.png") no-repeat left -190px top -200px;
+}
+
+.blog {
+    margin-top: 40px;
+}
+
+.blog article h2 a {
+    color: #12328d;
+    font-family: "Catamaran";
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.blog article p {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.blog article {
+    box-shadow: 0 0 9px rgba(10, 34, 89, 0.15);
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.blog-post-prev {
+    padding: 0 24px 0px 24px;
+}
+
+.btn-blog {
+    width: 100%;
+    margin-bottom: -76px;
+    border-radius: 0 0 10px 10px;
+    background-color: #65d4fd;
+    color: #ffffff;
+    font-family: "Catamaran";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 38px;
+    z-index: -1;
+}
+
+.btn-blog:hover {
+    background-color: #12328d !important;
+    color: white;
+
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin-left: 30px;
+    line-height: 1.25;
+    color: #3c3d3e;
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+
+}
+.pagination{
+    margin-top: 95px;
+
+}
+.page-link:hover{
+    background-color: #021452;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+}
+.active{
+    background-color: #021452;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+}
+.page-item:last-child .page-link, .page-item.disabled .page-link{
+    border-radius: 50%;
+}
+.cat-blog ul li a i {
+    color: #51555a;
+    margin-top: 6px;
+    margin-right: 0;
+    text-align: right;
+}
+.cat-blog ul li a {
+    color: #51555a;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.baner ul li {
+    list-style: none;
+    color: #51555a;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f1;
+}
+.baner ul {
+    padding-left: 0;
+}
+.baner h3 {
+    border-bottom:1px solid #65d5fe;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
