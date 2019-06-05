@@ -1030,6 +1030,7 @@ li.breadcrumb-item.active {
     font-family: "Catamaran";
     font-size: 33px;
     font-weight: 600;
+    margin-top: 30px;
 }
 
 .faq ul {
@@ -1057,4 +1058,19 @@ li.breadcrumb-item.active {
 .faq ul li i {
     color: #26c3ff;
     margin-right: 20px;
+}
+.blog-page-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info-footer ul{
+    padding-left: 0;
+}
+.info-footer ul li{
+ list-style: none;
+    margin-left: 30px;
+}
+.info-footer{
+    border-top: 1px solid #f0f0f1;
+    padding: 30px 0;
 }
