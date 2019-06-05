@@ -1024,9 +1024,37 @@ li.breadcrumb-item.active {
     text-transform: uppercase;
     padding-top: 5px;
 }
-.bredcr-title h1{
+
+.bredcr-title h1 {
     color: #12328d;
     font-family: "Catamaran";
     font-size: 33px;
     font-weight: 600;
+}
+
+.faq ul {
+    padding-left: 20px;
+}
+
+
+.faq ul li {
+    color: #3c3d3e;
+    font-family: Catamaran;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 55px;
+    list-style: none;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.faq ul li:last-child {
+    border: none;
+}
+.faq p {
+    margin-left: 50px;
+}
+
+.faq ul li i {
+    color: #26c3ff;
+    margin-right: 20px;
 }
