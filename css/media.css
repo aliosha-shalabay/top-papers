@@ -2,6 +2,26 @@
     .calc {
         display: none;
     }
+
+    .baner-1 {
+        padding: 42px 20px;
+    }
+
+    .baner-1 p, .baner-1 a {
+        font-size: 18px;
+    }
+
+    .baner-1 .proc-baner-1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 29px;
+    }
+
+    .baner-1 .baner-1-of {
+        font-size: 20px;
+        font-weight: 600;
+
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -22,20 +42,76 @@
     .header-text h1 {
         margin-top: 0;
     }
-    .logo a img{
+
+    .logo a img {
         display: block;
         margin: 0 auto;
     }
-    .header-contact{
-        justify-content: center!important;
+
+    .header-contact {
+        justify-content: center !important;
+    }
+
+    .baner-1 {
+        padding: 76px 45px;
+    }
+
+    .baner-1 p, .baner-1 a {
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+    .baner-1 .proc-baner-1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 43px;
+    }
+
+    .baner-1 .baner-1-of {
+        font-size: 30px;
     }
 
 }
 
 @media only screen and (max-width: 767px) {
+    .baner-1 {
+        padding: 53px 20px;
+    }
+
+    .baner-1 p, .baner-1 a {
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+    .baner-1 .proc-baner-1 {
+        font-size: 31px;
+        margin-left: 31px;
+    }
+
+    .baner-1 .baner-1-of {
+        font-size: 24px;
+    }
 
 }
 
 @media only screen and (max-width: 575px) {
+    .baner-1 {
+        width: 290px;
+        padding: 18px 14px 18px 7px;
+    }
 
+    .baner-1 p, .baner-1 a {
+        font-size: 12px;
+    }
+
+    .baner-1 .proc-baner-1 {
+        font-size: 18px;
+        margin-left: 24px;
+    }
+
+    .baner-1 .baner-1-of {
+        font-size: 14px;
+    }
 }
