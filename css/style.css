@@ -1051,6 +1051,7 @@ li.breadcrumb-item.active {
 .faq ul li:last-child {
     border: none;
 }
+
 .faq p {
     margin-left: 50px;
 }
@@ -1059,18 +1060,85 @@ li.breadcrumb-item.active {
     color: #26c3ff;
     margin-right: 20px;
 }
-.blog-page-info{
+
+.blog-page-info {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.info-footer ul{
+
+.info-footer ul {
     padding-left: 0;
 }
-.info-footer ul li{
- list-style: none;
+
+.info-footer ul li {
+    list-style: none;
     margin-left: 30px;
 }
-.info-footer{
+
+.info-footer {
     border-top: 1px solid #f0f0f1;
     padding: 30px 0;
+}
+
+.yoda-contact {
+    background: white;
+}
+
+.yoda-contact article div button.life-chat {
+    width: 173px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #00baff;
+    padding: 0;
+}
+
+.yoda-contact article div h5 {
+    color: #133087;
+    font-family: Catamaran;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.yoda-contact article p {
+    margin-top: 13px;
+}
+
+.yoda-contact article input {
+    height: 50px;
+    box-shadow: 0 0 3px rgba(5, 14, 39, 0.3);
+    background-color: #fcfcfc;
+}
+
+.yoda-contact article label {
+    color: #989b9e;
+    font-family: Catamaran;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.send-contact {
+    padding: 0;
+    width: 219px;
+    height: 50px;
+}
+
+.contact-text h5 {
+    color: #113280;
+    font-family: Catamaran;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 57px;
+}
+
+.mod-text-conyact {
+    font-family: Catamaran;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.contact-footer-icon i {
+    color: #989b9e;
 }
