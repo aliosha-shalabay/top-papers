@@ -22,6 +22,40 @@
         font-weight: 600;
 
     }
+
+    .baner-2-s-2 .time-baner-2 p:last-child {
+        padding-left: 0px;
+        margin-left: -1px;
+    }
+
+    .baner-2 .baner-2-s-1 p:first-child, .baner-2 .baner-2-s-1 p:last-child {
+        font-size: 18px
+    }
+
+    .baner-2 .baner-2-s-1 p:first-child span {
+        font-size: 21px;
+    }
+
+    .baner-2 .baner-2-s-1 p:last-child span {
+        padding: 0px 8px;
+    }
+
+    .baner-2 .baner-2-s-1 p:last-child {
+        margin-bottom: 10px;
+    }
+
+    .baner-2-s-2 .time-baner-2 span {
+        font-size: 19px;
+        margin-right: 24px;
+    }
+
+    .baner-2-s-2 {
+        margin-top: -45px;
+    }
+
+    .baner-2-s-2 .time-baner-2 p:first-child {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -72,6 +106,17 @@
         font-size: 30px;
     }
 
+    .baner-2-s-2 .time-baner-2 span {
+        font-size: 19px;
+        margin-right: 11px;
+    }
+
+    .baner-2-s-2 .time-baner-2 p:last-child {
+        padding-left: 0px;
+        margin-left: -6px;
+    }
+
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -94,6 +139,17 @@
         font-size: 24px;
     }
 
+    .baner-2 .baner-2-s-1 {
+        margin-left: 0px;
+    }
+
+    .baner-2-s-2 {
+        margin-top: -35px;
+    }
+
+    .baner-2-s-2 {
+        padding-right: 15px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -113,5 +169,35 @@
 
     .baner-1 .baner-1-of {
         font-size: 14px;
+    }
+
+    .baner-2-s-2 .time-baner-2 p:first-child {
+        justify-content: space-between !important;
+    }
+
+    .baner-2-s-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .baner-2 .baner-2-s-1 {
+        text-align: center;
+    }
+
+    .baner-2-s-2 {
+        margin-right: 0;
+        padding-left: 15px;
+    }
+
+    .baner-2-s-2 .time-baner-2 p:last-child {
+        font-size: 11px;
+        margin-left: 7px;
+    }
+
+    .baner-2-s-2 .time-baner-2 span {
+        margin-right: 7px;
+    }
+    .baner-2 .baner-2-s-1{
+        padding: 0px 1px 20px 0px;
     }
 }

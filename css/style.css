@@ -1212,9 +1212,11 @@ li.breadcrumb-item.active {
     margin-top: -15px;
     padding: 0px 27px 1px 42px;
 }
-.baner-2 p{
-    opacity: 1!important;
+
+.baner-2 p {
+    opacity: 1 !important;
 }
+
 .baner-2 .baner-2-s-1 p:first-child {
     color: #a6e6ff;
     font-family: Catamaran;
@@ -1252,7 +1254,7 @@ li.breadcrumb-item.active {
     line-height: 44.1px;
     padding: 11px 33px;
     margin-left: 35px;
-    opacity: 1!important;
+    opacity: 1 !important;
 
 }
 
@@ -1267,7 +1269,8 @@ li.breadcrumb-item.active {
     margin-left: 25px;
 
 }
-.baner-2-s-2  {
+
+.baner-2-s-2 {
     background: url("../images/clock.png") no-repeat top right;
     margin-top: -35px;
     margin-right: -35px;
@@ -1275,12 +1278,12 @@ li.breadcrumb-item.active {
     padding-right: 80px;
 
 }
-.baner-2-s-2 .time-baner-2 span{
-    width: 92px;
-    height: 66px;
+
+.baner-2-s-2 .time-baner-2 span {
+    padding: 5px 16px;
     border-radius: 10px;
     background-color: #ffffff;
-margin-right: 35px;
+    margin-right: 35px;
     font-family: Catamaran;
     font-weight: 700;
     line-height: 47.31px;
@@ -1289,14 +1292,17 @@ margin-right: 35px;
     font-size: 27px;
 
 }
-.baner-2-s-2 .time-baner-2 p:first-child{
+
+
+.baner-2-s-2 .time-baner-2 p:first-child {
     color: #92e1ff;
     font-family: Catamaran;
     font-size: 37px;
     font-weight: 700;
-
+    margin-bottom: 0;
 }
-.baner-2-s-2 .time-baner-2 p:last-child{
+
+.baner-2-s-2 .time-baner-2 p:last-child {
     color: #ffffff;
     font-family: Catamaran;
     font-size: 20px;
