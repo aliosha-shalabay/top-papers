@@ -188,7 +188,7 @@
     }
 
     .contact div div p {
-        line-height: 7px;
+        line-height: 17px;
     }
 
     .footer-text {
@@ -267,6 +267,9 @@
     .breadcrumb {
         margin-top: -10px;
         margin-bottom: -30px;
+    }
+    .info-footer ul li{
+        margin-left: 10px;
     }
 }
 
