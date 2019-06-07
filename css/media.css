@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1690px) {
+    .wrapper {
+        background: none;
+    }
+}
+
 @media only screen and (max-width: 1199px) {
     .calc {
         display: none;
@@ -55,6 +61,10 @@
 
     .baner-2-s-2 .time-baner-2 p:first-child {
         margin-bottom: 0;
+    }
+
+    nav.header-nav ul li a {
+        font-size: 13px;
     }
 }
 
@@ -116,12 +126,85 @@
         margin-left: -6px;
     }
 
+    .header-contact p {
+        font-size: 12px;
+    }
 
+    .payment ul {
+        padding-left: 0px;
+    }
+
+    .payment ul li a {
+        letter-spacing: normal;
+        font-size: 10px;
+    }
+
+    .payment ul li {
+        margin-top: 19px;
+    }
+
+    .logo-payment, .payment {
+        padding: 0;
+    }
+
+    .articles ul li a {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    footer.footer h6 {
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    .contact div div p {
+        font-size: 11px;
+    }
+
+    .contact div span {
+        margin-right: 0px;
+        font-size: 11px;
+    }
+
+    .contact div {
+        margin-top: 18px;
+    }
+
+    .m60 {
+        margin-top: 8px !important;
+    }
+
+    .footer-text {
+        margin-top: 11px;
+        margin-bottom: 11px;
+        font-size: 11px !important;
+
+    }
+
+    .social div ul {
+        padding-right: 0;
+    }
+
+    .contact div div p {
+        line-height: 7px;
+    }
+
+    .footer-text {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .footer-text-1 p{
+        line-height: 16px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .baner-1 {
         padding: 53px 20px;
+
     }
 
     .baner-1 p, .baner-1 a {
@@ -149,6 +232,41 @@
 
     .baner-2-s-2 {
         padding-right: 15px;
+    }
+
+    .header-contact {
+        padding-top: 0;
+    }
+
+    .bg-header-2 .login-order-link p {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+
+    .login-order-link {
+        justify-content: space-between !important;
+    }
+
+    .blog article img {
+        width: 100%;
+    }
+
+    .pagination {
+        margin-top: 50px;
+    }
+
+    .footer {
+        margin-top: 25px;
+    }
+
+    .bredcr-title h1 {
+        margin-top: 10px;
+    }
+
+    .breadcrumb {
+        margin-top: -10px;
+        margin-bottom: -30px;
     }
 }
 
@@ -197,7 +315,43 @@
     .baner-2-s-2 .time-baner-2 span {
         margin-right: 7px;
     }
-    .baner-2 .baner-2-s-1{
+
+    .baner-2 .baner-2-s-1 {
         padding: 0px 1px 20px 0px;
     }
+
+    .header-contact {
+        justify-content: center !important;
+    }
+
+    .bg-header-2 .login-order-link p {
+        opacity: 1 !important;
+    }
+
+    .bg-header-2 .login-order-link p a {
+        background-color: #f7ab00;
+        color: #ffffff;
+        font-family: "Catamaran";
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        padding: 12px 0px;
+        text-align: center;
+    }
+
+    .bg-header-2 .login-order-link p:last-child a {
+        background-color: #12328d;
+        color: #ffffff;
+        font-family: "Catamaran";
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+        padding: 12px 30px;
+        text-align: center;
+    }
+
+    .yoda article {
+        padding: 40px;
+    }
+
 }
