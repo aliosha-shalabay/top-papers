@@ -1309,5 +1309,13 @@ li.breadcrumb-item.active {
     font-weight: 700;
     line-height: 47.31px;
     padding-left: 5px;
-
+}
+.yoda-contact p{
+    margin-left: 9px;
+}
+.bredcr-title nav{
+    margin-bottom: 10px;
+}
+.yoda-contact .btn-order-now{
+    width: 100%;
 }
