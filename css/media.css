@@ -1,13 +1,21 @@
+@media only screen and (max-width: 1860px) {
+    .bg-header {
+        background: url(../images/Vector_Smart_Object3.png) no-repeat left -266px bottom, url(../images/9-layers.png) no-repeat center -7px / cover;
+    }
+}
 @media only screen and (max-width: 1690px) {
     .wrapper {
         background: none;
     }
 }
+@media only screen and (max-width: 1300px) {
+    .bg-header {
+        background: url(../images/9-layers.png) no-repeat center -7px / cover;
+    }
+}
 
 @media only screen and (max-width: 1199px) {
-    .calc {
-        display: none;
-    }
+
 
     .baner-1 {
         padding: 42px 20px;
@@ -66,9 +74,14 @@
     nav.header-nav ul li a {
         font-size: 13px;
     }
+
+
 }
 
 @media only screen and (max-width: 991px) {
+    .calc{
+        padding: 53px 35px;
+    }
     .header-contact {
         font-size: 11px;
         line-height: 14px;
@@ -196,8 +209,19 @@
         margin-bottom: 5px;
         text-align: center;
     }
-    .footer-text-1 p{
+
+    .footer-text-1 p {
         line-height: 16px;
+    }
+    .calc{
+        margin-top: 0;
+    }
+    .header-text h1{
+        line-height: normal;
+        font-size: 24px;
+    }
+    .radios-as-buttons div {
+        width: 25%;
     }
 }
 
@@ -238,7 +262,7 @@
         padding-top: 0;
     }
 
-    .bg-header-2 .login-order-link p {
+    .bg-header-2 .login-order-link p, .bg-header .login-order-link p {
         display: flex;
         width: 50%;
         justify-content: center;
@@ -268,12 +292,32 @@
         margin-top: -10px;
         margin-bottom: -30px;
     }
-    .info-footer ul li{
+
+    .info-footer ul li {
         margin-left: 10px;
+    }
+
+    .bg-header .breack {
+        opacity: 0
+    }
+    .header-text h1{
+        text-align: center;
+        font-size: 25px;
+        line-height: normal;
+        margin-bottom: 120px;
+    }
+    .calc{
+        top: -110px;
+    }
+    .bg-header{
+        margin-bottom: 702px;
     }
 }
 
 @media only screen and (max-width: 575px) {
+    .bg-header{
+        margin-bottom: 540px;
+    }
     .baner-1 {
         width: 290px;
         padding: 18px 14px 18px 7px;
@@ -327,7 +371,7 @@
         justify-content: center !important;
     }
 
-    .bg-header-2 .login-order-link p {
+    .bg-header-2 .login-order-link p, .bg-header .login-order-link p {
         opacity: 1 !important;
     }
 
@@ -340,6 +384,29 @@
         width: 100%;
         padding: 12px 0px;
         text-align: center;
+    }
+
+    .bg-header .login-order-link p a {
+        background-color: #f7ab00;
+        color: #ffffff;
+        padding: 12px 0px;
+        width: 100%;
+        text-align: center;
+        font-family: "Catamaran";
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .bg-header .login-order-link p:last-child a {
+        background-color: white;
+        color: #0f2b79;
+        opacity: 1;
+        padding: 12px 0px;
+        width: 100%;
+        text-align: center;
+        font-family: "Catamaran";
+        font-size: 14px;
+        font-weight: 600;
     }
 
     .bg-header-2 .login-order-link p:last-child a {
@@ -356,5 +423,31 @@
     .yoda article {
         padding: 40px;
     }
-
+.calc{
+    padding: 34px 20px;
+}
+    .calc h3{
+        font-size: 27px;
+    }
+    .calc input{
+        padding: 8px 0 9px 19px;
+    }
+    .radios-as-buttons label{
+        padding: 13px 5px 15px 5px;
+    }
+    .radios-as-buttons{
+        height: 40px;
+    }
+    .form-price p:nth-child(2){
+        font-size: 14px;
+    }
+    .form-price p:nth-child(1){
+        font-size: 15px;
+    }
+    .form-price p:nth-child(1) span:nth-child(1){
+        font-size: 24px;
+    }
+    .calc .btn-order-now{
+        padding: 10px 60px;
+    }
 }

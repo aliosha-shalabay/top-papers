@@ -122,6 +122,8 @@ nav.header-nav ul {
     border-radius: 10px;
     background-color: #ffffff;
     position: absolute;
+    width: calc(100% - 35px);
+    z-index: 1;
 }
 
 .calc h3 {
@@ -149,7 +151,12 @@ nav.header-nav ul {
 
 .radios-as-buttons {
     display: flex;
-    justify-content: space-between
+    box-shadow: 0 0 3px rgba(5, 14, 39, 0.3);
+
+}
+
+.radios-as-buttons div {
+    width: 20%;
 }
 
 .radios-as-buttons input {
@@ -159,10 +166,14 @@ nav.header-nav ul {
 
 .radios-as-buttons label {
     display: block;
-    padding: 21px 26px 15px 26px;
-    box-shadow: 0 0 3px rgba(5, 14, 39, 0.3);
+    padding: 21px 5px 15px 5px;
+    /*box-shadow: 0 0 3px rgba(5, 14, 39, 0.3);*/
     background-color: #fcfcfc;
+    border-right: 1px solid rgba(5, 14, 39, 0.3);
     cursor: pointer;
+    height: 100%;
+    text-align: center;
+
 }
 
 .radios-as-buttons input:checked + label {
@@ -1309,12 +1320,15 @@ li.breadcrumb-item.active {
     line-height: 47.31px;
     padding-left: 5px;
 }
-.yoda-contact p{
+
+.yoda-contact p {
     margin-left: 9px;
 }
-.bredcr-title nav{
+
+.bredcr-title nav {
     margin-bottom: 10px;
 }
-.yoda-contact .btn-order-now{
+
+.yoda-contact .btn-order-now {
     width: 100%;
 }
