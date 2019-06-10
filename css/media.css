@@ -3,14 +3,21 @@
         background: url(../images/Vector_Smart_Object3.png) no-repeat left -266px bottom, url(../images/9-layers.png) no-repeat center -7px / cover;
     }
 }
+
 @media only screen and (max-width: 1690px) {
     .wrapper {
         background: none;
     }
 }
+
 @media only screen and (max-width: 1300px) {
     .bg-header {
         background: url(../images/9-layers.png) no-repeat center -7px / cover;
+    }
+
+    .bg-block-2 {
+        background: none;
+        padding-top: 372px;
     }
 }
 
@@ -79,9 +86,10 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .calc{
+    .calc {
         padding: 53px 35px;
     }
+
     .header-contact {
         font-size: 11px;
         line-height: 14px;
@@ -213,13 +221,16 @@
     .footer-text-1 p {
         line-height: 16px;
     }
-    .calc{
+
+    .calc {
         margin-top: 0;
     }
-    .header-text h1{
+
+    .header-text h1 {
         line-height: normal;
         font-size: 24px;
     }
+
     .radios-as-buttons div {
         width: 25%;
     }
@@ -300,24 +311,65 @@
     .bg-header .breack {
         opacity: 0
     }
-    .header-text h1{
+
+    .header-text h1 {
         text-align: center;
         font-size: 25px;
         line-height: normal;
         margin-bottom: 120px;
     }
-    .calc{
+
+    .calc {
         top: -110px;
     }
-    .bg-header{
+
+    .bg-header {
         margin-bottom: 702px;
+    }
+
+    .bg-block-2 {
+        padding-top: 200px;
+    }
+
+    .header-table tbody tr:nth-child(1) td:nth-child(1), .header-table tbody tr:nth-child(2) td:nth-child(1) {
+        border-right: 3px solid #bfc0c2;
+    }
+
+    .header-table tbody tr:nth-child(2) td {
+        border-top: 3px solid #bfc0c2;
+    }
+
+    .header-table tbody tr td {
+        color: #bfc0c2;
+    }
+
+    .contact-window {
+        padding: 42px;
+    }
+
+    .bg-block-2-footer {
+        background: url(../images/people.png) no-repeat top 104px left -93px / 80%, url(../images/blue-line.png) no-repeat bottom left / 100% 168px;
+    }
+
+    .bg-block-2-people section{
+        border: none;
+    }
+    .blue-block h5 {
+        font-size: 15px;
+    }
+    .bg-block-3{
+        background: none;
+    }
+    .section-block-3 article{
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 575px) {
-    .bg-header{
+    .bg-header {
         margin-bottom: 540px;
     }
+
     .baner-1 {
         width: 290px;
         padding: 18px 14px 18px 7px;
@@ -423,31 +475,40 @@
     .yoda article {
         padding: 40px;
     }
-.calc{
-    padding: 34px 20px;
-}
-    .calc h3{
+
+    .calc {
+        padding: 34px 20px;
+    }
+
+    .calc h3 {
         font-size: 27px;
     }
-    .calc input{
+
+    .calc input {
         padding: 8px 0 9px 19px;
     }
-    .radios-as-buttons label{
+
+    .radios-as-buttons label {
         padding: 13px 5px 15px 5px;
     }
-    .radios-as-buttons{
+
+    .radios-as-buttons {
         height: 40px;
     }
-    .form-price p:nth-child(2){
+
+    .form-price p:nth-child(2) {
         font-size: 14px;
     }
-    .form-price p:nth-child(1){
+
+    .form-price p:nth-child(1) {
         font-size: 15px;
     }
-    .form-price p:nth-child(1) span:nth-child(1){
+
+    .form-price p:nth-child(1) span:nth-child(1) {
         font-size: 24px;
     }
-    .calc .btn-order-now{
+
+    .calc .btn-order-now {
         padding: 10px 60px;
     }
 }
