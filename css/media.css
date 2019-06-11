@@ -82,6 +82,13 @@
         font-size: 13px;
     }
 
+    .panel p {
+        font-size: 13px;
+    }
+
+    .section-right-block-5 div div.panel {
+        padding: 30px 10px 30px 10px;
+    }
 
 }
 
@@ -348,20 +355,96 @@
     }
 
     .bg-block-2-footer {
-        background: url(../images/people.png) no-repeat top 104px left -93px / 80%, url(../images/blue-line.png) no-repeat bottom left / 100% 168px;
+        background: url(../images/people.png) no-repeat top 104px left -93px / 255px, url(../images/blue-line.png) no-repeat bottom left / 100% 168px;
+
     }
 
-    .bg-block-2-people section{
+    .bg-block-2-people section {
         border: none;
+        padding-left: 112px;
     }
+
     .blue-block h5 {
         font-size: 15px;
     }
-    .bg-block-3{
+
+    .bg-block-3 {
         background: none;
     }
-    .section-block-3 article{
+
+    .section-block-3 article {
         text-align: center;
+    }
+
+    .section-block-3 {
+        margin-top: 0px;
+    }
+
+    .section-block-3 h5, .section-block-5 h5 {
+        text-align: center;
+    }
+
+    .text-block-3 .btn-order-now {
+        padding: 12px 13px;
+    }
+
+    .btn-block-3 {
+        margin-top: 0;
+    }
+
+    .section-block-5 {
+        padding-top: 35px;
+    }
+
+    .section-right-block-5 {
+        margin-top: 10px;
+    }
+
+    .section-block-6 {
+        padding: 0px 5px 0px 5px;
+    }
+
+    .bg-block-6 {
+        background: none;
+    }
+
+    .bg-block-6 h3 {
+        margin-bottom: 0px;
+        margin-top: 34px;
+        text-align: center;
+    }
+
+    .section-block-6-2 {
+        background: none;
+    }
+
+    .section-block-6 {
+        box-shadow: none;
+    }
+
+    .section-block-6 article {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .section-block-6 article h5 {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .section-block-6 article p a{
+        line-height: normal;
+    }
+    .bg-block-6 div div div > p{
+        color: black !important;
+         line-height: normal;
+         padding-left: 0px;
+         margin-top: 0px;
+        font-size: 18px;
+    }
+    .bg-block-2 h3{
+        line-height: normal;
+        font-size: 26px;
     }
 }
 

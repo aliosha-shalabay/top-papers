@@ -343,11 +343,11 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     font-size: 30px;
     font-weight: 600;
     line-height: 43px;
-    width: 59%;
+    width: 100%;
     margin: 0 auto;
     margin-top: -110px;
     border-left: 2px solid #85d6f6;
-    padding-left: 20px;
+    padding-left: 250px;
 }
 
 .bg-block-2-people .blue-block-btn {
@@ -594,7 +594,7 @@ button.btn-outline-secondary:hover, button.btn-outline-secondary:active {
     margin-top: 170px;
 }
 
-.section-right-block-5 div div {
+.section-right-block-5 div div.panel {
     box-shadow: 0 0 9px rgba(10, 34, 89, 0.1);
     background-color: #f4fcff;
     padding: 30px 30px 30px 30px;
