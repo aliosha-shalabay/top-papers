@@ -241,6 +241,17 @@
     .radios-as-buttons div {
         width: 25%;
     }
+
+    .faq ul li {
+        padding: 10px;
+        line-height: normal;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+
+    .faq ul li i {
+        margin-left: -36px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -432,20 +443,24 @@
         font-size: 20px;
         line-height: normal;
     }
-    .section-block-6 article p a{
+
+    .section-block-6 article p a {
         line-height: normal;
     }
-    .bg-block-6 div div div > p{
+
+    .bg-block-6 div div div > p {
         color: black !important;
-         line-height: normal;
-         padding-left: 0px;
-         margin-top: 0px;
+        line-height: normal;
+        padding-left: 0px;
+        margin-top: 0px;
         font-size: 18px;
     }
-    .bg-block-2 h3{
+
+    .bg-block-2 h3 {
         line-height: normal;
         font-size: 26px;
     }
+
 }
 
 @media only screen and (max-width: 575px) {
